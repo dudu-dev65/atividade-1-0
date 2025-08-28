@@ -45,15 +45,33 @@ main{
 }
 main .bloco-principal{
 	width: 100%;
-	background:yellow;
 }
 main .noticia{
 	width: 100%;
-	background: red;
 	display: flex;
+	padding: 30px;
 }
-main .noticia .img{
+main .noticia img{
 	width: 200px;
+	padding: 10px;
+}
+main .descricão{
+    padding: 10px;
+}
+main .descrição h3{
+    background-color: blue;
+	color: white;
+	padding: 15px;
+}
+main .descrição p{
+	margint-top: 20px;
+	letter-spacing: 5px;
+	line-height: 25px;
+}
+main .descrição a{
+	background: blue;
+	color: white;
+	padding: 5px 15px;
 }
 aside{
 	width: 20%;
