@@ -1,24 +1,21 @@
-
-
 *{margin: 0; padding:0;}
 header{
 	width: 100%;
 	height: 20vh;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+    align-items:center;
 }
 header .logo{
-	width: 150px;
-}
+        width: 150px;
+    }
 header .logo img{
-  width: 100%;
-  height: 20vh;
+       width: 100%;
 }
 header ul{
 	display: flex;
-	align-items: center;
-	height: 20vh;
+    align-items: center;
+    height: 20vh;
 }
 header ul li{
 	list-style: none;
@@ -33,53 +30,65 @@ header ul li a{
 header ul li a:hover{
 	background: black;
 	color: #fff;
-}
+}   
 div.content{
-	display: flex;
-
+    display:flex;
 }
 main{
 	width: 80%;
 	height: 60vh;
-    border: 1px solid black;
+    border:1px solid black;
+    padding: 30px;
 }
 main .bloco-principal{
-	width: 100%;
+    width: 100%;
 }
 main .noticia{
-	width: 100%;
-	display: flex;
-	padding: 30px;
+    width: 80%;
+    display:flex;
 }
 main .noticia img{
-	width: 200px;
-	padding: 10px;
-}
-main .descricão{
+    width:200px;
     padding: 10px;
 }
-main .descrição h3{
-    background-color: blue;
-	color: white;
-	padding: 15px;
+main .descricao{
+    padding: 10px;
 }
-main .descrição p{
-	margint-top: 20px;
-	letter-spacing: 5px;
-	line-height: 25px;
+main .descricao h3{
+    background: rgb(0, 30, 255);
+    color: rgb(244, 179, 118);
+    padding: 5px;
 }
-main .descrição a{
-	background: blue;
-	color: white;
-	padding: 5px 15px;
+main .descricao p{
+    margin-top: 20px;
+    letter-spacing: 3px;
+    line-height: 25px;
+}
+main .descricao a{
+    background: rgb(255, 0, 0);
+    color: rgb(255, 242, 0);;
+    padding: 5px 15px;
+}
+main .grid-3{
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+}
+main .grid-3 .coluna{
+    width: 33%; 
+    border: 1px solid black;
+}
+main .grid-3 .coluna img{
+    width: 47%;
 }
 aside{
 	width: 20%;
 	height: 60vh;
-	background: yellow;
+    background: blue;
 }
 footer{
 	width: 100%;
 	height: 20vh;
-	background: blue;
+	background: red     ;
 }	
+
