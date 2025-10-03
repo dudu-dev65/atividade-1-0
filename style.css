@@ -171,5 +171,23 @@ footer .redes div{
 @media screen and (max-width: 870px){
 	main .grid-3 .coluna{
 	 width: 98%;
+	 
 }
+aside{
+	width: 20%;
+	display: none;
 }
+aside img{
+	width: 100%;
+	margin: 10px;
+	display: none;
+}
+aside a img{
+	transition: all 0.3s ease-in;
+	display: none;
+}
+aside a:hover img{
+	transform:scale(1.5);
+	display: none;
+}
+}	
