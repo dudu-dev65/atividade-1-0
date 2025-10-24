@@ -188,16 +188,25 @@ footer .redes div{
 	width: 300px;
 	margin: 5px;
 }
-#sim body{
-	font-family: Arial, sans-serif; 
-	margin: 40px; 
+.sim body{
+	font-family: Arial, sans-serif;
+  background: red;
+  padding: 20px;
+  border-radius: 8px;
+  width: 280px;
   
 }
-form{
-	background: blue; 
-	padding: 20px; 
-  
-}
+.nao{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 8px;
+	border: 1px solid red;
+	margin: 50px;
+	border-radius: 5px;
+  }
+
+
 
 @media screen and (max-width: 1108px ){
 	 main .grid-3 .coluna{
