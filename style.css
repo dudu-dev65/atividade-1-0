@@ -178,7 +178,25 @@ footer .redes div{
 	font-size: 20px;
 	width: 800px;
 	margin: 0 auto;
-
+}
+#sobre .galeria{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#sobre .galeria img{
+	width: 300px;
+	margin: 5px;
+}
+#sim body{
+	font-family: Arial, sans-serif; 
+	margin: 40px; 
+  
+}
+form{
+	background: blue; 
+	padding: 20px; 
+  
 }
 
 @media screen and (max-width: 1108px ){
